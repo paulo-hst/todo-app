@@ -13,7 +13,7 @@ const rootReducer = combineReducers({
             done: true
         },{
             _id: 3,
-            description: 'Consulta',
+            description: 'Consulta médica',
             done: false
         } ]
     })
