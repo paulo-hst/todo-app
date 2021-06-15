@@ -1,18 +1,6 @@
 const INITIAL_STATE = {
-    description: 'Ler livro',
-    list: [{
-        _id: 1,
-        description: 'Pagar fatura',
-        done: true
-    },{
-        _id: 2,
-        description: 'Reunião',
-        done: true
-    },{
-        _id: 3,
-        description: 'Consulta médica',
-        done: false
-    }]
+    description: '',
+    list: []
 }
 
 const todoReducer = (state = INITIAL_STATE, action) => {
